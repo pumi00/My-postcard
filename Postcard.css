@@ -46,6 +46,6 @@ p{
     background-color:darkgray;
 }
 
-#PostcardMessage{
+.PostcardMessage{
     margin-left:300px;
 }
