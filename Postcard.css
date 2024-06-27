@@ -1,0 +1,51 @@
+body{
+    width:100vw;
+    height:100vh;
+    background-color:black;
+    display:flex;
+    font-family:"Comic Sans MS"
+}
+
+.square{
+    width:500px;
+    height:350px;
+    background-color:white;
+    margin:auto;
+}
+
+#TitlePostcard{
+    margin-top:20px;
+    margin-left:20px;
+    font-size:30px;
+}
+#Image4GeeksAcademy{
+    float:right;
+    width: 65px;
+    height: 65px;
+    margin-right:20px;
+    margin-top:20px;
+
+}
+p{
+    margin-left:20px;
+}
+#SendButton{
+    color:black;
+    cursor:pointer;
+    margin-left:175px;
+    margin-top:20px;
+    background-color: rgba(128, 128, 128, 0.58);
+    border:transparent;
+    font-size:15px;
+    font-family: "Comic Sans MS";
+}
+#SendButton:hover{
+    background-color:lightgray;
+}
+#SendButton:active{
+    background-color:darkgray;
+}
+
+#PostcardMessage{
+    margin-left:300px;
+}
