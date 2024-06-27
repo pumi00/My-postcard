@@ -3,7 +3,7 @@ body{
     height:100vh;
     background-color:black;
     display:flex;
-    font-family:"Comic Sans MS"
+    font-family: "Comic Sans MS", serif
 }
 
 .square{
@@ -37,7 +37,7 @@ p{
     background-color: rgba(128, 128, 128, 0.58);
     border:transparent;
     font-size:15px;
-    font-family: "Comic Sans MS";
+    font-family: "Comic Sans MS", serif;
 }
 #SendButton:hover{
     background-color:lightgray;
