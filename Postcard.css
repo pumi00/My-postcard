@@ -12,7 +12,6 @@ body{
     background-color:white;
     margin:auto;
 }
-
 #TitlePostcard{
     margin-top:20px;
     margin-left:20px;
@@ -38,6 +37,7 @@ p{
     border:transparent;
     font-size:15px;
     font-family: "Comic Sans MS", serif;
+
 }
 #SendButton:hover{
     background-color:lightgray;
@@ -47,5 +47,11 @@ p{
 }
 
 .PostcardMessage{
-    margin-left:300px;
+    float: right;
+    margin-right: 20px;
+    font-size: 15px;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    outline: none;
 }
