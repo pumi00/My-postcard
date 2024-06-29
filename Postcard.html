@@ -3,31 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <title>My Postcard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="Postcard.css">
 
 </head>
 <body>
-<div class="square">
-    <img id="Image4GeeksAcademy" src="https://storage.googleapis.com/breathecode-asset-images/5318bde604cf5c915f94897a71b49ab2523101322ea21cb046db1e67c24fa3be.png">
+    <div class="postcard">
+        <div class="postcard-header">
+            <h1 style="width: 100%;">My Postcard</h1>
+            <img src="https://storage.googleapis.com/breathecode-asset-images/5318bde604cf5c915f94897a71b49ab2523101322ea21cb046db1e67c24fa3be.png"
+            />
+        </div>
+        <div class="postcard-body">
+            <div class="body-left">
+                <p>Look how awesome! This is a postcard that I created using HTML5 and CSS3 during my 4Geeks Academy Course!.</p>
+                <p>This is cool, can´t wait to start doing more stuff!</p>
+            </div>
+            <div class="body-right">
+                <input type="text" placeholder="Some Name">
+                <input type="text" placeholder="Some Email">
+                <input type="text" placeholder="Some Comment">
+            </div>
+        </div>
+        <div class="postcard-footer">
+            <button>Send My Postcard</button>
+        </div>
 
-    <h1 id="TitlePostcard">My Postcard</h1>
-    <p>
-        Look how awesome! This is a<br>
-        postcard that I created using<br>
-        HTML5 and CSS3 during my<br>
-        4Geeks Academy Course!
-    </p>
-
-    <p>
-        This is cool, can´t wait to<br>
-        start doing more stuff.
-    </p>
-    <div>
-        <input type="text" class="PostcardMessage" placeholder="Some Name">
-        <input type="text" class="PostcardMessage" placeholder="Some Email">
-        <input type="text" class="PostcardMessage" placeholder="Some Comment">
     </div>
-    <button id="SendButton">Send My Postcard</button>
-</div>
 </body>
 </html>
